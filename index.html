@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -60,6 +61,16 @@
           <span>Ladies section only</span>
         </label>
 
+        <label>
+          Sort results
+          <select id="sortFilter">
+            <option value="time-asc">Earliest to latest</option>
+            <option value="time-desc">Latest to earliest</option>
+            <option value="distance">Nearest to farthest</option>
+            <option value="name-asc">A to Z</option>
+          </select>
+        </label>
+
         <div class="button-row">
           <button id="useLocationBtn" class="primary-btn">Use my location</button>
           <button id="resetFiltersBtn" class="secondary-btn">Reset</button>
@@ -70,7 +81,10 @@
 
       <section class="panel">
         <div class="results-header">
-          <h2>Results</h2>
+          <div>
+            <h2>Results</h2>
+            <p class="results-subtitle">View every mosque or sort the full list by start time.</p>
+          </div>
           <span id="resultCount" class="pill">0</span>
         </div>
         <div id="resultsList" class="results-list"></div>
