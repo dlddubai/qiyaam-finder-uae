@@ -20,6 +20,7 @@ const els = {
   minTimeFilter: document.getElementById('minTimeFilter'),
   maxTimeFilter: document.getElementById('maxTimeFilter'),
   ladiesOnlyFilter: document.getElementById('ladiesOnlyFilter'),
+  sortFilter: document.getElementById('sortFilter'),
   useLocationBtn: document.getElementById('useLocationBtn'),
   resetFiltersBtn: document.getElementById('resetFiltersBtn'),
   fitAllBtn: document.getElementById('fitAllBtn'),
@@ -210,6 +211,7 @@ function applyFilters() {
   const minTime = timeStringToMinutes(els.minTimeFilter.value);
   const maxTime = timeStringToMinutes(els.maxTimeFilter.value);
   const ladiesOnly = els.ladiesOnlyFilter.checked;
+  const sortBy = els.sortFilter.value;
 
   state.filteredMosques = state.allMosques.filter(mosque => {
     const matchesSearch = !search || [
@@ -240,16 +242,25 @@ function applyFilters() {
         );
       }
     });
-
-    state.filteredMosques.sort((a, b) => {
-      if (typeof a.distanceMeters === 'number' && typeof b.distanceMeters === 'number') {
-        return a.distanceMeters - b.distanceMeters;
-      }
-      return a.qiyaamMinutes - b.qiyaamMinutes;
-    });
-  } else {
-    state.filteredMosques.sort((a, b) => a.qiyaamMinutes - b.qiyaamMinutes);
   }
+
+  state.filteredMosques.sort((a, b) => {
+    switch (sortBy) {
+      case 'time-desc':
+        return (b.qiyaamMinutes ?? 9999) - (a.qiyaamMinutes ?? 9999);
+      case 'distance': {
+        const aDistance = typeof a.distanceMeters === 'number' ? a.distanceMeters : Number.POSITIVE_INFINITY;
+        const bDistance = typeof b.distanceMeters === 'number' ? b.distanceMeters : Number.POSITIVE_INFINITY;
+        if (aDistance !== bDistance) return aDistance - bDistance;
+        return (a.qiyaamMinutes ?? 9999) - (b.qiyaamMinutes ?? 9999);
+      }
+      case 'name-asc':
+        return a.name.localeCompare(b.name);
+      case 'time-asc':
+      default:
+        return (a.qiyaamMinutes ?? 9999) - (b.qiyaamMinutes ?? 9999);
+    }
+  });
 
   renderResults();
   updateVisibleMarkers();
@@ -269,6 +280,7 @@ function attachFilterEvents() {
     els.minTimeFilter,
     els.maxTimeFilter,
     els.ladiesOnlyFilter,
+    els.sortFilter,
   ].forEach(el => el.addEventListener('input', applyFilters));
 
   els.resetFiltersBtn.addEventListener('click', () => {
@@ -278,6 +290,7 @@ function attachFilterEvents() {
     els.minTimeFilter.value = '';
     els.maxTimeFilter.value = '';
     els.ladiesOnlyFilter.checked = false;
+    els.sortFilter.value = 'time-asc';
     applyFilters();
   });
 
