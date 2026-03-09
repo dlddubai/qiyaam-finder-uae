@@ -44,3 +44,5 @@ button, .map-link { appearance: none; border: none; border-radius: 12px; padding
   .map-wrapper { min-height: 60vh; }
   #map { min-height: 58vh; }
 }
+
+.results-subtitle { margin: 4px 0 0; color: #6b7280; font-size: 0.86rem; line-height: 1.4; }
