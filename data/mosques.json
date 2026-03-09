@@ -310,5 +310,53 @@
     "emirate": "Dubai",
     "ladiesSection": false,
     "timestamp": "2026-03-09T16:20:08.126000"
-  }
+  },
+{
+"id": 27,
+"name": "Masjid Fatma Al Sayed Mohammad Yousuf Sharaf",
+"area": "JVC / FIVE JVC",
+"qiyaamTime": "12:00 AM",
+"qiyaamMinutes": 0,
+"mapsLink": "https://maps.app.goo.gl/wWvFEHEkqCk2qRAQ6",
+"details": "",
+"emirate": "Dubai",
+"ladiesSection": false,
+"timestamp": "2026-03-10T00:00:00.000000"
+},
+{
+"id": 28,
+"name": "Circle Mall Mosque",
+"area": "JVC",
+"qiyaamTime": "2:30 AM",
+"qiyaamMinutes": 150,
+"mapsLink": "https://maps.app.goo.gl/W1iZ7yooKKw9kUFZ9",
+"details": "",
+"emirate": "Dubai",
+"ladiesSection": false,
+"timestamp": "2026-03-10T00:00:00.000000"
+},
+{
+"id": 29,
+"name": "Saleh Mohammed Bin Lahej Mosque",
+"area": "JVC",
+"qiyaamTime": "3:30 AM",
+"qiyaamMinutes": 210,
+"mapsLink": "https://maps.app.goo.gl/98AG8msJpsLZpnBg9",
+"details": "",
+"emirate": "Dubai",
+"ladiesSection": false,
+"timestamp": "2026-03-10T00:00:00.000000"
+},
+{
+"id": 30,
+"name": "Abdullah Mohammad AlShirawi Mosque",
+"area": "JVC",
+"qiyaamTime": "2:30 AM",
+"qiyaamMinutes": 150,
+"mapsLink": "https://maps.app.goo.gl/HP6FNb8SaR4gnG4v9",
+"details": "",
+"emirate": "Dubai",
+"ladiesSection": false,
+"timestamp": "2026-03-10T00:00:00.000000"
+}
 ]
