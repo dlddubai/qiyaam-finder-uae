@@ -38,7 +38,7 @@
   {
     "id": 4,
     "name": "arabian ranches 1 mosque (new)",
-    "area": "arabian ranches",
+    "area": "Arabian Ranches",
     "qiyaamTime": "12:00 AM",
     "qiyaamMinutes": 0,
     "mapsLink": "https://maps.app.goo.gl/r34aaRRt4jFzrBft8",
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "name": "tilal al ghaf mosque",
-    "area": "tilal al ghaf",
+    "area": "Tilal Al Ghaf",
     "qiyaamTime": "1:00 AM",
     "qiyaamMinutes": 60,
     "mapsLink": "https://maps.app.goo.gl/JKcbanm5ZTaJ3mPH8",
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "name": "motor city big mosque",
-    "area": "motor city",
+    "area": "Motor City",
     "qiyaamTime": "2:45 AM",
     "qiyaamMinutes": 165,
     "mapsLink": "https://maps.app.goo.gl/FARAbh9VFTcuQqUC7",
@@ -74,7 +74,7 @@
   {
     "id": 7,
     "name": "motor city small mosque",
-    "area": "motor city",
+    "area": "Motor City",
     "qiyaamTime": "3:00 AM",
     "qiyaamMinutes": 180,
     "mapsLink": "https://maps.app.goo.gl/hfDpSsLGetuN2DaG9",
@@ -86,7 +86,7 @@
   {
     "id": 8,
     "name": "sustainable city mosque",
-    "area": "sustainable city",
+    "area": "Sustainable City",
     "qiyaamTime": "3:30 AM",
     "qiyaamMinutes": 210,
     "mapsLink": "https://maps.app.goo.gl/qvWpx8s3dAg6BwQj8",
@@ -146,7 +146,7 @@
   {
     "id": 13,
     "name": "town square main mosque",
-    "area": "town square",
+    "area": "Town Square",
     "qiyaamTime": "3:00 AM",
     "qiyaamMinutes": 180,
     "mapsLink": "https://maps.app.goo.gl/Y4jCUdPpF6x6Kvrz8",
@@ -157,8 +157,8 @@
   },
   {
     "id": 14,
-    "name": "damac hills 1",
-    "area": "damac hills",
+    "name": "damac hills 1 Mosque",
+    "area": "Damac Hills 1",
     "qiyaamTime": "12:00 AM",
     "qiyaamMinutes": 0,
     "mapsLink": "https://maps.app.goo.gl/PCTPoqTkx7qbQYFG7",
@@ -170,7 +170,7 @@
   {
     "id": 15,
     "name": "mira mosque",
-    "area": "mira",
+    "area": "Mira",
     "qiyaamTime": "2:30 AM",
     "qiyaamMinutes": 150,
     "mapsLink": "https://maps.app.goo.gl/MqZ7GMAQrJumwUAS9",
@@ -218,7 +218,7 @@
   {
     "id": 19,
     "name": "Dubai land central mosque",
-    "area": "Dubai land",
+    "area": "Dubailand",
     "qiyaamTime": "1:00 AM",
     "qiyaamMinutes": 60,
     "mapsLink": "https://maps.app.goo.gl/pcE8Dxk9nxMYTxig8",
@@ -243,8 +243,8 @@
     "id": 21,
     "name": "Al Noor Masjid",
     "area": "Al Qusais",
-    "qiyaamTime": "12:30 AM",
-    "qiyaamMinutes": 30,
+    "qiyaamTime": "1:00 AM",
+    "qiyaamMinutes": 60,
     "mapsLink": "https://maps.app.goo.gl/hY45v22tG8ezbDXw5",
     "details": "",
     "emirate": "Dubai",
@@ -357,6 +357,54 @@
 "details": "",
 "emirate": "Dubai",
 "ladiesSection": false,
+"timestamp": "2026-03-10T00:00:00.000000"
+},
+{
+"id": 31,
+"name": "Sharifa bint Abdulla Masjid",
+"area": "Damac Hills 2",
+"qiyaamTime": "12:00 AM",
+"qiyaamMinutes": 0,
+"mapsLink": "https://maps.app.goo.gl/mSUkjSfUBXB4KKXG6?g_st=ic",
+"details": "Ladies section",
+"emirate": "Dubai",
+"ladiesSection": true,
+"timestamp": "2026-03-10T00:00:00.000000"
+},
+{
+"id": 32,
+"name": "Sheikh Rashid bin Mohammed bin Rashid Al Maktoum Mosque",
+"area": "Marina",
+"qiyaamTime": "12:30 AM",
+"qiyaamMinutes": 30,
+"mapsLink": "https://maps.app.goo.gl/AyNGAoAvW13xozze6?g_st=ic",
+"details": "",
+"emirate": "Dubai",
+"ladiesSection": false,
+"timestamp": "2026-03-10T00:00:00.000000"
+},
+{
+"id": 33,
+"name": "Abu Bakar Al Siddique Mosque",
+"area": "Al Barsha South 3",
+"qiyaamTime": "12:30 AM",
+"qiyaamMinutes": 30,
+"mapsLink": "https://maps.app.goo.gl/38AM5QcAr3Co748DA?g_st=ipc",
+"details": "Ladies section available",
+"emirate": "Dubai",
+"ladiesSection": true,
+"timestamp": "2026-03-10T00:00:00.000000"
+},
+{
+"id": 34,
+"name": "Sobha Hartland Mosque",
+"area": "Sobha Hartland",
+"qiyaamTime": "12:00 AM",
+"qiyaamMinutes": 0,
+"mapsLink": "https://maps.app.goo.gl/qDBJpKYgGMgna96F8?g_st=ic",
+"details": "Ladies section available",
+"emirate": "Dubai",
+"ladiesSection": true,
 "timestamp": "2026-03-10T00:00:00.000000"
 }
 ]
