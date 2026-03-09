@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Qiyaam Finder UAE</title>
+  <meta name="description" content="Find Qiyaam locations across the UAE with map, GPS, and filters." />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-badge">🌙</div>
+        <div>
+          <h1>Qiyaam Finder UAE</h1>
+          <p>Map, GPS, and filters for Qiyaam locations.</p>
+        </div>
+      </div>
+
+      <section class="panel">
+        <h2>Filters</h2>
+
+        <label>
+          Search
+          <input id="searchInput" type="text" placeholder="Mosque, area, reciter..." />
+        </label>
+
+        <div class="grid-two">
+          <label>
+            Emirate
+            <select id="emirateFilter">
+              <option value="">All emirates</option>
+            </select>
+          </label>
+
+          <label>
+            Area
+            <select id="areaFilter">
+              <option value="">All areas</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="grid-two">
+          <label>
+            Earliest time
+            <input id="minTimeFilter" type="time" />
+          </label>
+
+          <label>
+            Latest time
+            <input id="maxTimeFilter" type="time" />
+          </label>
+        </div>
+
+        <label class="checkbox-row">
+          <input id="ladiesOnlyFilter" type="checkbox" />
+          <span>Ladies section only</span>
+        </label>
+
+        <div class="button-row">
+          <button id="useLocationBtn" class="primary-btn">Use my location</button>
+          <button id="resetFiltersBtn" class="secondary-btn">Reset</button>
+        </div>
+
+        <p id="statusText" class="status">Loading mosques…</p>
+      </section>
+
+      <section class="panel">
+        <div class="results-header">
+          <h2>Results</h2>
+          <span id="resultCount" class="pill">0</span>
+        </div>
+        <div id="resultsList" class="results-list"></div>
+      </section>
+    </aside>
+
+    <main class="map-wrapper">
+      <div class="topbar">
+        <div class="topbar-left">
+          <strong>Live map</strong>
+          <span id="geoStatus" class="muted">Location not enabled</span>
+        </div>
+        <div class="topbar-right">
+          <button id="fitAllBtn" class="ghost-btn">Show all</button>
+        </div>
+      </div>
+      <div id="map"></div>
+    </main>
+  </div>
+
+  <template id="resultItemTemplate">
+    <article class="result-card">
+      <div class="result-card-header">
+        <h3 class="result-title"></h3>
+        <span class="time-chip"></span>
+      </div>
+      <p class="result-meta"></p>
+      <p class="result-details"></p>
+      <div class="result-actions">
+        <button class="map-focus-btn">View on map</button>
+        <a class="map-link" target="_blank" rel="noopener noreferrer">Open Maps</a>
+      </div>
+    </article>
+  </template>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="./app.js"></script>
+</body>
+</html>
