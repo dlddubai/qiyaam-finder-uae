@@ -406,5 +406,53 @@
 "emirate": "Dubai",
 "ladiesSection": true,
 "timestamp": "2026-03-10T00:00:00.000000"
+},
+{
+"id": 35,
+"name": "Ali Bin Abi Talib Mosque",
+"area": "Al Safa 1",
+"qiyaamTime": "12:30 AM",
+"qiyaamMinutes": 30,
+"mapsLink": "https://maps.app.goo.gl/BXZWeTpZ6pSi7CfA6",
+"details": "",
+"emirate": "Dubai",
+"ladiesSection": false,
+"timestamp": "2026-03-10T00:00:00.000000"
+},
+{
+"id": 36,
+"name": "Khadijah Bint Khuwaylid Mosque",
+"area": "Al Nahda",
+"qiyaamTime": "11:30 PM",
+"qiyaamMinutes": 1410,
+"mapsLink": "https://maps.app.goo.gl/q6LtYDxJ23tdv9s19",
+"details": "",
+"emirate": "Dubai",
+"ladiesSection": false,
+"timestamp": "2026-03-10T00:00:00.000000"
+},
+{
+"id": 37,
+"name": "Khalid Bin Al Waleed Mosque",
+"area": "Al Wuheida / Deira",
+"qiyaamTime": "12:00 AM",
+"qiyaamMinutes": 0,
+"mapsLink": "https://maps.app.goo.gl/ZNTBVrkEkumjp1SK8",
+"details": "",
+"emirate": "Dubai",
+"ladiesSection": false,
+"timestamp": "2026-03-10T00:00:00.000000"
+},
+{
+"id": 38,
+"name": "Omar Bin Al Khattab Mosque",
+"area": "Al Safa",
+"qiyaamTime": "1:00 AM",
+"qiyaamMinutes": 60,
+"mapsLink": "https://maps.app.goo.gl/hRe65eGWNWmynCMN7",
+"details": "",
+"emirate": "Dubai",
+"ladiesSection": false,
+"timestamp": "2026-03-10T00:00:00.000000"
 }
 ]
