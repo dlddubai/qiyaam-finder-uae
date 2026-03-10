@@ -454,5 +454,77 @@
 "emirate": "Dubai",
 "ladiesSection": false,
 "timestamp": "2026-03-10T00:00:00.000000"
+},
+{
+"id": 39,
+"name": "Sheikh Rashid Al Maktoum Mosque",
+"area": "Al Warqa 1",
+"qiyaamTime": "12:00 AM",
+"qiyaamMinutes": 0,
+"mapsLink": "https://maps.app.goo.gl/ZqoNUAjkNJrxXJzL6?g_st=ic",
+"details": "",
+"emirate": "Dubai",
+"ladiesSection": false,
+"timestamp": "2026-03-10T00:00:00.000000"
+},
+{
+"id": 40,
+"name": "Ata Ur Rahman Mosque",
+"area": "Arjan",
+"qiyaamTime": "3:00 AM",
+"qiyaamMinutes": 180,
+"mapsLink": "https://maps.app.goo.gl/mtt6KgmAndgLNXNL7?g_st=ic",
+"details": "Ladies entrance on side with elevator to take to ladies area upstairs. Outdoor ladies section for those with children.",
+"emirate": "Dubai",
+"ladiesSection": true,
+"timestamp": "2026-03-10T00:00:00.000000"
+},
+{
+"id": 41,
+"name": "Mirdif City Centre Mosque",
+"area": "Mirdif",
+"qiyaamTime": "12:00 AM",
+"qiyaamMinutes": 0,
+"mapsLink": "https://maps.app.goo.gl/yuZvfKrAFX9Y96uu6?g_st=ic",
+"details": "Ladies section available",
+"emirate": "Dubai",
+"ladiesSection": true,
+"timestamp": "2026-03-10T00:00:00.000000"
+},
+{
+"id": 42,
+"name": "Sheikha Abdullah Salem Mosque",
+"area": "Dubai",
+"qiyaamTime": "12:30 AM",
+"qiyaamMinutes": 30,
+"mapsLink": "https://maps.app.goo.gl/RThfqR7RRNAtzwkw9",
+"details": "",
+"emirate": "Dubai",
+"ladiesSection": false,
+"timestamp": "2026-03-10T00:00:00.000000"
+},
+{
+"id": 43,
+"name": "Masjid Aisha",
+"area": "The Villa",
+"qiyaamTime": "12:00 AM",
+"qiyaamMinutes": 0,
+"mapsLink": "https://maps.app.goo.gl/qiugN17MZJhmq6Qn6",
+"details": "Also another Qiyaam at 2:00 AM",
+"emirate": "Dubai",
+"ladiesSection": false,
+"timestamp": "2026-03-10T00:00:00.000000"
+},
+{
+"id": 44,
+"name": "Masjid Aisha",
+"area": "The Villa",
+"qiyaamTime": "2:00 AM",
+"qiyaamMinutes": 120,
+"mapsLink": "https://maps.app.goo.gl/qiugN17MZJhmq6Qn6",
+"details": "",
+"emirate": "Dubai",
+"ladiesSection": false,
+"timestamp": "2026-03-10T00:00:00.000000"
 }
 ]
